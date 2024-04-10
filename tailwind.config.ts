@@ -18,6 +18,14 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        gilroy: "gilroy",
+        "gilroy-italic": "gilroy-italic",
+        "gilroy-light": "gilroy-light",
+        "gilroy-medium": "gilroy-medium",
+        "gilroy-regular": "gilroy-regular",
+        "gilroy-thin": "gilroy-thin",
+      },
       colors: {
         getsparklin: {
           purple: "#9047FF",

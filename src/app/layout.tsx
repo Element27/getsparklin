@@ -5,13 +5,13 @@ import "./globals.css";
 
 import { cn } from "@/lib/utils";
 
-// Font files can be colocated inside of `app`
-const gilroy = localFont({
-  src: [
-    // { path: "../fonts/Gilroy-ExtraBold.otf" },
-    { path: "../fonts/Gilroy-Light.otf" },
-  ],
-});
+// // Font files can be colocated inside of `app`
+// const gilroy = localFont({
+//   src: [
+//     // { path: "../fonts/Gilroy-ExtraBold.otf" },
+//     { path: "../fonts/Gilroy-Light.otf" },
+//   ],
+// });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("", gilroy.className)}>{children}</body>
+      <body className={cn("font-gilroy, text-black")}>{children}</body>
     </html>
   );
 }

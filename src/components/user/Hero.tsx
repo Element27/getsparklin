@@ -7,7 +7,7 @@ export default function UserHero() {
     <div>
       {/* hero section */}
       <div className="w-full lg:w-[70%] mx-auto my-10 lg:my-14 ">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center  leading-[48px] lg:leading-[72px]">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center  leading-[48px] lg:leading-[72px] font-gilroy">
           Say{" "}
           <span className="relative text-getsparklin-purple">
             bye
@@ -21,7 +21,7 @@ export default function UserHero() {
               />
             </span>
           </span>{" "}
-          to laundry troubles.{" "}
+          to laundry troubles. <br className="lg:block hidden" />
           <span className="relative text-getsparklin-cyan">
             Sparkling
             <span className="absolute top-[-20px] left-[-20px] size-[32px] lg:size-[48px] lg:top-[-36px] lg:left-[-28px]">
@@ -58,7 +58,7 @@ export default function UserHero() {
           </span>
         </h1>
 
-        <p className="text-sm font-semibold mx-4 my-4 text-center">
+        <p className="text-sm font-semibold mx-4 my-12 text-center font-gilroy">
           Imagine this: crisp, clean clothes delivered straight to your door,
           leaving you free to pursue the things you love. No more weekend
           laundry marathons, no more overflowing hampers, just freshness on

@@ -6,7 +6,7 @@ export default function UserFeatures() {
   return (
     <section className="py-8 mb-10">
       <div className="items-center py-[2%]">
-        <h5 className="text-xl text-center py-[1%] text-getsparklin-cyan">
+        <h5 className="text-xl text-center py-[1%] text-getsparklin-teal ">
           OUR FEATURES
         </h5>
         <h3 className="text-3xl sm:text-6xl text-center font-bold">
