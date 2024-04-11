@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <section className="bg-white px-4 pt-12 relative">
+    <section className="bg-white px-4 pt-24 relative">
       <div className="flex flex-col lg:flex-row-reverse justify-around">
         <div className="gap-6 flex flex-col mb-12">
           <div className="flex gap-2 lg:gap-4 items-center justify-center w-fit">
@@ -113,7 +113,7 @@ export default function Footer() {
             alt="footer logo"
             width={432}
             height={600}
-            className="absolute bottom-[100%] left-[-5%]"
+            className="absolute bottom-[150%] lg:bottom-[-150%] left-[-5%]"
           />
         </div>
       </div>
