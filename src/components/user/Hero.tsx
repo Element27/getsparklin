@@ -7,7 +7,7 @@ export default function UserHero() {
     <div>
       {/* hero section */}
       <div className="w-full lg:w-[70%] mx-auto my-10 lg:my-14 ">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center  leading-[48px] lg:leading-[72px] font-gilroy">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center  leading-[48px] lg:leading-[72px] font-gilroy text-black">
           Say{" "}
           <span className="relative text-getsparklin-purple">
             bye
