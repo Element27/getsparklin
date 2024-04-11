@@ -48,7 +48,7 @@ export default function UserHero() {
           </span> */}
             <span className=" absolute right-[-36px] size-[24px] lg:size-[44px] lg:right-[-60px]">
               <Image
-                src="/icons/smileman.png"
+                src="/icons/Smiling Man.svg"
                 alt="logo"
                 width={48}
                 height={60}
