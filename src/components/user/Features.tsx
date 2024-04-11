@@ -6,7 +6,7 @@ export default function UserFeatures() {
   return (
     <section className="py-8 mb-10 font-gilroy-medium">
       <div className="items-center py-[2%]">
-        <h5 className="text-xl text-center py-[1%] text-getsparklin-teal ">
+        <h5 className="text-xl text-center py-[1%] text-[#00C3B3] ">
           OUR FEATURES
         </h5>
         <h3 className="text-3xl lg:text-6xl text-center font-Gilroy">
@@ -95,7 +95,7 @@ export default function UserFeatures() {
               src="/icons/Left Button.svg"
               alt="button"
               width={120}
-              className="size-20 md:size-[100px] lg:size-[120px]"
+              className="size-10 md:size-11 lg:size-20"
               height={120}
             />
             <Image
@@ -103,7 +103,7 @@ export default function UserFeatures() {
               alt="button"
               width={120}
               height={120}
-              className="size-20 md:size-[100px] lg:size-[120px]"
+              className="size-10 md:size-11 lg:size-20"
             />
           </div>
         </div>
