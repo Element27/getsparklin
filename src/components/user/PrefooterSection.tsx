@@ -26,7 +26,7 @@ export default function PrefooterSection() {
           </div>
 
           <div className="flex justify-between items-center my-10 relative  -top-3/4 lg:-top-1/2 w-[90%] lg:w-[70%] mx-auto">
-            <div className="flex items-center gap-10">
+            <div className="flex items-center gap-4 lg:gap-8">
               <div className="border flex items-center justify-center border-black bg-getsparklin-yellow rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl  font-bold">
                 <p>1</p>
               </div>
@@ -41,16 +41,16 @@ export default function PrefooterSection() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <div className="bg-getsparklin-yellow rounded-full">
+              <div className="bg-getsparklin-yellow rounded-full overflow-hidden">
                 <Image
-                  src={"/icons/left Button.svg"}
+                  src={"/icons/Right Button.svg"}
                   alt="img"
                   width={120}
                   height={120}
-                  className="size-16 lg:size-24"
+                  className="size-16 lg:size-24 rotate-180"
                 />
               </div>
-              <div className="bg-getsparklin-yellow rounded-full">
+              <div className="bg-getsparklin-yellow rounded-full overflow-hidden">
                 <Image
                   src={"/icons/Right Button.svg"}
                   alt="img"
