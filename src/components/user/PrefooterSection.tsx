@@ -4,15 +4,15 @@ import Button from "../Button";
 
 export default function PrefooterSection() {
   return (
-    <section>
+    <section className="font-Gilroy">
       <section className="relative h-screen bg-white flex items-end border ">
         <div className="bg-getsparklin-purple h-[40%] lg:h-[60%] w-full border-t-4 border-t-black">
           <div className="bg-getsparklin-yellow w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
             <div className="absolute top-[5%] left-[5%] ">
-              <p className="text-xs lg:text-2xl md:text-base">
+              <p className="text-xs lg:text-2xl md:text-base font-gilroy">
                 Get started with the following steps{" "}
               </p>
-              <h3 className="text-3xl md:text-4xl lg:text-[60px] font-extrabold ">
+              <h3 className="text-3xl md:text-4xl lg:text-[60px] font-Gilroy font-semibold">
                 Mess monsters got <br /> you down?
               </h3>
             </div>
@@ -27,16 +27,16 @@ export default function PrefooterSection() {
 
           <div className="flex justify-between items-center my-10 relative  -top-3/4 lg:-top-1/2 w-[90%] lg:w-[70%] mx-auto">
             <div className="flex items-center gap-10">
-              <div className="border flex items-center justify-center border-black bg-getsparklin-yellow rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] font-bold">
+              <div className="border flex items-center justify-center border-black bg-getsparklin-yellow rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl  font-bold">
                 <p>1</p>
               </div>
-              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] font-bold">
+              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl font-bold">
                 <p>2</p>
               </div>
-              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] font-bold">
+              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl font-bold">
                 <p>3</p>
               </div>
-              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] font-bold">
+              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl font-bold">
                 <p>4</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function PrefooterSection() {
           className="bg-getsparklin-teal-white w-[80%] h-[74%] mx-auto rounded-3xl overflow-hidden flex flex-col lg:flex-row relative"
         >
           <div className="w-fit mx-auto">
-            <p className="text-3xl font-bold px-4 py-8">
+            <p className="text-4xl font-bold px-4 py-8 font-gilroy">
               Download our app <br /> today and kiss{" "}
               <br className="hidden lg:block" />
               laundry goodbye!👋🏼
@@ -106,12 +106,12 @@ export default function PrefooterSection() {
       </section>
       <section className="bg-getsparklin-main-black p-16 relative h-[80vh] lg:h-[70vh]">
         <div>
-          <h4 className="text-white text-5xl lg:text-6xl my-4">
+          <h4 className="text-white text-5xl lg:text-6xl my-4 font-gilroy font-medium">
             Stay <span className="text-getsparklin-blue"> sparkling</span>{" "}
             <br />
             informed!
           </h4>
-          <p className="text-white text-base lg:text-2xl ">
+          <p className="text-white text-base lg:text-2xl font-gilroy-medium">
             Get the latest updates on Getsparklin delivered straight <br />
             to your inbox. Subscribe now!
           </p>

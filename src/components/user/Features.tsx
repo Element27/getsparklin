@@ -4,14 +4,14 @@ import Image from "next/image";
 
 export default function UserFeatures() {
   return (
-    <section className="py-8 mb-10">
+    <section className="py-8 mb-10 font-gilroy-medium">
       <div className="items-center py-[2%]">
         <h5 className="text-xl text-center py-[1%] text-getsparklin-teal ">
           OUR FEATURES
         </h5>
-        <h3 className="text-3xl sm:text-6xl text-center font-bold">
-          Here is how we make laundry
-          <br /> <span className="text-getsparklin-purple">a breeze</span>{" "}
+        <h3 className="text-3xl lg:text-6xl text-center font-Gilroy">
+          Here is how we make laundry a
+          <br /> <span className="text-getsparklin-purple"> breeze</span>{" "}
         </h3>
       </div>
 

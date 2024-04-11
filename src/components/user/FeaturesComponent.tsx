@@ -28,20 +28,20 @@ const FeaturesComponent = ({
       }`}
     >
       <div className="w-full lg:w-1/2">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl py-2 font-bold">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl py-2 font-Gilroy font-medium">
           {title}
         </h2>
 
         <p className="text-sm md:text-base">{description}</p>
       </div>
 
-      <div className="w-full lg:w-1/2">
+      <div className={`w-full lg:w-fit flex ${reverse ? "" : "flex-end"}`}>
         <Image
           src={imageSrc}
-          width={420}
+          width={320}
           height={180}
           alt="reliable"
-          className="w-[80%] mx-auto h-[126px] lg:h-[176px]"
+          className={` h-[126px] lg:h-[176px] ${reverse ? "" : ""}`}
         />
       </div>
     </div>

@@ -19,12 +19,12 @@ const config = {
     },
     extend: {
       fontFamily: {
-        gilroy: "gilroy",
-        "gilroy-italic": "gilroy-italic",
-        "gilroy-light": "gilroy-light",
-        "gilroy-medium": "gilroy-medium",
-        "gilroy-regular": "gilroy-regular",
-        "gilroy-thin": "gilroy-thin",
+        gilroy: "Gilroy",
+        "gilroy-italic": "Gilroy-Italic",
+        "gilroy-light": "Gilroy-Light",
+        "gilroy-medium": "Gilroy-Medium",
+        "gilroy-regular": "Gilroy-Regular",
+        "gilroy-thin": "Gilroy-Thin",
       },
       colors: {
         getsparklin: {

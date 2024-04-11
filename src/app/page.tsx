@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Advantage from "@/components/user/Advantage";
 import UserFeatures from "@/components/user/Features";
+import Footer from "@/components/user/Footer";
 import UserHero from "@/components/user/Hero";
 import PrefooterSection from "@/components/user/PrefooterSection";
 import { MobileNavbar, Navbar } from "@/components/user/navbar/Navbar";
@@ -19,6 +20,7 @@ export default function UserLandingPage() {
       <UserFeatures />
       {/* <Advantage /> */}
       <PrefooterSection />
+      <Footer />
     </div>
   );
 }
