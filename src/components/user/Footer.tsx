@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <section className="bg-white px-4 pt-12">
+    <section className="bg-white px-4 pt-12 relative">
       <div className="flex flex-col lg:flex-row-reverse justify-around">
         <div className="gap-6 flex flex-col mb-12">
           <div className="flex gap-2 lg:gap-4 items-center justify-center w-fit">
@@ -26,8 +26,8 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-6 flex-col lg:flex-row">
-          <div className="flex flex-row lg:flex-row-reverse gap-6 ">
-            <div className="flex flex-col gap-6">
+          <div className="flex flex-row lg:flex-row-reverse   ">
+            <div className="flex flex-col gap-6 w-[180px]">
               <h6 className="font-Gilroy font-semibold text-[#667085]">
                 Near Me
               </h6>
@@ -37,7 +37,7 @@ export default function Footer() {
               <p className="font-Gilroy font-semibold ">Shoe Repair</p>
               <p className="font-Gilroy font-semibold ">Laundry Delivery</p>
             </div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 w-[180px]">
               <h6 className="font-Gilroy font-semibold text-[#667085]">
                 Products
               </h6>
@@ -45,8 +45,8 @@ export default function Footer() {
               <p className="font-Gilroy font-semibold ">Vendors</p>
             </div>
           </div>
-          <div className="flex gap-6 flex-row lg:flex-row-reverse">
-            <div className="flex flex-col gap-6">
+          <div className="flex flex-row lg:flex-row-reverse  ">
+            <div className="flex flex-col gap-6 w-[180px]">
               <h6 className="font-Gilroy font-semibold text-[#667085]">
                 Support
               </h6>
@@ -54,7 +54,7 @@ export default function Footer() {
               <p className="font-Gilroy font-semibold ">FAQs</p>
               <p className="font-Gilroy font-semibold ">Contact Us</p>
             </div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 w-[180px]">
               <h6 className="font-Gilroy font-semibold text-[#667085]">
                 Legal
               </h6>
@@ -78,7 +78,7 @@ export default function Footer() {
           © 2024. Getsparklin. All rights reserved.
         </p>
 
-        <div className="flex items-center gap-6 my-12">
+        <div className="flex items-center gap-6 my-12 relative">
           <Image
             src="/icons/fb.svg"
             alt="instagram logo"
@@ -106,6 +106,14 @@ export default function Footer() {
             width={32}
             height={32}
             className=""
+          />
+
+          <Image
+            src="/icons/Logo Mark-1.svg"
+            alt="footer logo"
+            width={432}
+            height={600}
+            className="absolute bottom-[100%] left-[-5%]"
           />
         </div>
       </div>
