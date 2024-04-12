@@ -11,31 +11,70 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Button from "../../Button";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export function Navbar() {
+  const pathName = usePathname();
+  console.log(pathName);
   return (
-    <nav className="hidden lg:flex justify-between items-center">
+    <nav
+      className={`hidden font-gilroy lg:flex justify-between items-center px-4 py-4 ${
+        pathName === "/vendor" && "bg-black"
+      }`}
+    >
       <div className="flex items-baseline ">
-        <Image src="/sparklin.png" alt="logo" width={23} height={32} />
-        <h4 className="text-[24px] font-medium ">GetSparklin</h4>
+        <Image
+          src={pathName === "/vendor" ? "/logo-white.svg" : "/sparklin.png"}
+          alt="logo"
+          width={23}
+          height={32}
+        />
+        <h4
+          className={`text-[24px] font-medium ${
+            pathName === "/vendor" ? "text-white" : "text-black"
+          }`}
+        >
+          GetSparklin
+        </h4>
       </div>
 
-      <div className="flex gap-4 items-center ">
-        <p className="my-2 text-[14px] px-5 py-2 rounded-full font-medium bg-getsparklin-light-purple text-getsparklin-purple">
+      <div
+        className={`flex gap-4 items-center ${
+          pathName === "/vendor" ? "text-white" : "text-black"
+        }`}
+      >
+        <Link
+          href="/"
+          className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+            pathName === "/" && "bg-[#9047FF33] text-getsparklin-purple"
+          }`}
+        >
           For Consumers
-        </p>
+        </Link>
 
-        <p className="my-2 text-[14px] px-5 py-2 rounded-full font-medium">
+        <Link
+          href="/vendor"
+          className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+            pathName === "/vendor" && "bg-[#9047FF33] text-getsparklin-purple"
+          }`}
+        >
           For Vendors
-        </p>
+        </Link>
 
-        <p className="my-2 text-[14px] px-5 py-2 rounded-full font-medium">
+        <Link
+          href="/"
+          className="my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+        >
           Our features
-        </p>
+        </Link>
 
-        <p className="my-2 text-[14px] px-5 py-2 rounded-full font-medium">
+        <Link
+          href="/"
+          className="my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+        >
           blogs
-        </p>
+        </Link>
       </div>
 
       <Button
@@ -49,48 +88,88 @@ export function Navbar() {
 }
 
 export function MobileNavbar() {
+  const path = usePathname();
   return (
-    <nav className="flex items-center justify-between lg:hidden bg-white">
-      <div className="flex items-baseline">
-        <Image src="/sparklin.png" alt="logo" width={23} height={32} />
+    <nav
+      className={`flex font-gilroy items-center justify-between lg:hidden bg-white ${
+        path === "/vendor" && "bg-black"
+      }`}
+    >
+      <div
+        className={`flex items-baseline ${path === "/vendor" && "text-white"}`}
+      >
+        <Image
+          src={path === "/vendor" ? "/logo-white.svg" : "/sparklin.png"}
+          alt="logo"
+          width={23}
+          height={32}
+        />
         <h4 className="text-[24px] font-medium ">GetSparklin</h4>
       </div>
       <div>
         <Sheet>
           <SheetTrigger asChild>
             <Image
-              src="/icons/Vectormenu.svg"
+              src={
+                path === "/vendor"
+                  ? "/icons/vectormenuwhite.svg"
+                  : "/icons/Vectormenu.svg"
+              }
               alt="menu-icon"
               width={23}
               height={32}
             />
           </SheetTrigger>
-          <SheetContent side="left" className="bg-white">
+          <SheetContent
+            side="left"
+            className={`${
+              path === "/vendor" ? "bg-black text-white" : "bg-white text-black"
+            }`}
+          >
             <div className="flex items-baseline my-8">
               <Image src="/sparklin.png" alt="logo" width={23} height={32} />
               <h4 className="text-[24px] font-medium ">GetSparklin</h4>
             </div>
 
             <div className="flex flex-col justify-between items-start ">
-              <SheetClose>
-                <p className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium bg-getsparklin-light-purple text-getsparklin-purple">
+              <SheetClose className="my-2">
+                <Link
+                  href="/"
+                  // className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium bg-getsparklin-light-purple text-getsparklin-purple"
+                  className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+                    path === "/" && "bg-[#9047FF33] text-getsparklin-purple"
+                  }`}
+                >
                   For Consumers
-                </p>
+                </Link>
               </SheetClose>
-              <SheetClose>
-                <p className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium">
+              <SheetClose className="my-2">
+                <Link
+                  href="/vendor"
+                  // className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+                  className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+                    path === "/vendor" &&
+                    "bg-[#9047FF33] text-getsparklin-purple"
+                  }`}
+                >
                   For Vendors
-                </p>
+                </Link>
               </SheetClose>
-              <SheetClose>
-                <p className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium">
+              <SheetClose className="my-2">
+                <Link
+                  href="/"
+                  className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+                >
                   Our features
-                </p>
+                </Link>
               </SheetClose>
-              <SheetClose>
-                <p className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium">
+              <SheetClose className="my-2">
+                <Link
+                  href="/"
+                  className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+                >
                   blogs
-                </p>
+                </Link>
               </SheetClose>
               <SheetClose>
                 <Button

@@ -10,7 +10,7 @@ import React from "react";
 
 export default function UserLandingPage() {
   return (
-    <div className="min-h-screen bg-white ">
+    <div className="min-h-screen ">
       {/* navbar */}
       <div className=" border-b-2 border-b-black p-4 md:px-8 lg:px-10">
         <Navbar />
