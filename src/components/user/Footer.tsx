@@ -113,7 +113,7 @@ export default function Footer() {
             alt="footer logo"
             width={432}
             height={600}
-            className="absolute bottom-[150%] lg:bottom-[-150%] left-[-5%]"
+            className="absolute bottom-[150%] lg:bottom-[-150%] left-[-5%] lg:left-[0] "
           />
         </div>
       </div>

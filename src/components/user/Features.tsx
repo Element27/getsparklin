@@ -73,7 +73,7 @@ export default function UserFeatures() {
           reverse={false}
         />
 
-        <div className="flex justify-between items-baseline my-10 w-10/12 mx-auto">
+        {/* <div className="flex justify-between items-baseline my-10 w-10/12 mx-auto">
           <div className="flex justify-between items-center gap-4">
             <Image
               src="/icons/Left Circle.svg"
@@ -106,7 +106,7 @@ export default function UserFeatures() {
               className="size-10 md:size-11 lg:size-20"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

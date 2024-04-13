@@ -94,7 +94,8 @@ export default function PrefooterSection() {
 
           <div className="mt-12 w-fit mx-auto relative">
             <Image
-              src="/icons/Vectorpart.svg"
+              // src="/icons/Vectorpart.svg"
+              src="/icons/Logo Mark-1.svg"
               alt="logo"
               width={731}
               height={400}
