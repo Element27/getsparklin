@@ -12,8 +12,8 @@ export default function PrefooterSection() {
         >
           <div className="w-fit mx-auto">
             <p className="text-4xl font-bold px-4 py-8 font-gilroy">
-              Download our app <br /> today and kiss laundry{" "}
-              <br className="hidden lg:block" />
+              Download our app <br className="hidden lg:block" /> today and kiss
+              laundry <br className="hidden lg:block" />
               goodbye!👋🏼
             </p>
 
@@ -47,7 +47,7 @@ export default function PrefooterSection() {
         </div>
       </section>
       {/*  */}
-      <section className="bg-getsparklin-main-black p-16 relative h-[80vh] lg:h-[70vh]">
+      <section className="bg-getsparklin-main-black p-4 py-16 lg:p-16 relative h-[80vh] lg:h-[70vh]">
         <div>
           <h4 className="text-white text-5xl lg:text-6xl my-4 font-gilroy font-medium">
             Stay <span className="text-getsparklin-blue"> sparkling</span>{" "}
@@ -55,7 +55,8 @@ export default function PrefooterSection() {
             informed!
           </h4>
           <p className="text-white text-base lg:text-2xl font-gilroy-medium">
-            Get the latest updates on Getsparklin delivered straight <br />
+            Get the latest updates on Getsparklin delivered straight{" "}
+            <br className="hidden lg:block" />
             to your inbox. Subscribe now!
           </p>
         </div>
