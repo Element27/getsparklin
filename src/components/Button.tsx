@@ -7,10 +7,9 @@ interface ButtonProps {
   imgSrc?: string;
   bg: string;
   text: string;
-  shadow: string;
 }
 
-export default function Button({ bg, text, shadow, imgSrc }: ButtonProps) {
+export default function Button({ bg, text, imgSrc }: ButtonProps) {
   const path = usePathname();
 
   return (

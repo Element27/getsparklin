@@ -70,13 +70,11 @@ export default function UserHero() {
             imgSrc="/icons/playstore.svg"
             bg="#9047FF"
             text="Download On Google Play"
-            shadow="black"
           />
           <Button
             imgSrc="/icons/appstore.svg"
             bg="#9047FF"
             text="Download On App Store"
-            shadow="black"
           />
         </div>
       </div>

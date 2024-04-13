@@ -80,7 +80,6 @@ export function Navbar() {
       <Button
         bg="#9047FF"
         text="Contact us on whatsapp"
-        shadow="black"
         imgSrc="/icons/whatsapp.svg"
       />
     </nav>
@@ -99,12 +98,18 @@ export function MobileNavbar() {
         className={`flex items-baseline ${path === "/vendor" && "text-white"}`}
       >
         <Image
-          src={path === "/vendor" ? "/logo-white.svg" : "/sparklin.png"}
+          src={path === "/vendor" ? "/sparklin.png" : "/logo-white.svg"}
           alt="logo"
           width={23}
           height={32}
         />
-        <h4 className="text-[24px] font-medium font-gilroy">GetSparklin</h4>
+        <h4
+          className={`text-[24px] font-medium font-gilroy ${
+            path === "/vendor" ? "text-black" : "text-white"
+          }`}
+        >
+          GetSparklin
+        </h4>
       </div>
       <div>
         <Sheet>
@@ -112,8 +117,8 @@ export function MobileNavbar() {
             <Image
               src={
                 path === "/vendor"
-                  ? "/icons/vectormenuwhite.svg"
-                  : "/icons/Vectormenu.svg"
+                  ? "/icons/Vectormenu.svg"
+                  : "/icons/vectormenuwhite.svg"
               }
               alt="menu-icon"
               width={23}
@@ -175,7 +180,6 @@ export function MobileNavbar() {
                 <Button
                   bg="#9047FF"
                   text="Contact us on whatsapp"
-                  shadow="black"
                   imgSrc="/icons/whatsapp.svg"
                 />
               </SheetClose>
