@@ -43,7 +43,9 @@ const FeaturesComponent = ({
           width={320}
           height={180}
           alt="reliable"
-          className={` h-[126px] lg:h-[176px] ${reverse ? "" : ""}`}
+          className={` h-[126px] lg:h-[176px] ${
+            reverse ? "" : ""
+          } lg:w-[360px]`}
         />
       </div>
     </div>

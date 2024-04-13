@@ -22,7 +22,7 @@ export default function UserHero() {
             </span>
           </span>{" "}
           to laundry troubles. <br className="lg:block hidden" />
-          <span className="relative text-getsparklin-cyan font-gilroy">
+          <span className="relative text-getsparklin-teal font-gilroy">
             Sparkling
             <span className="absolute top-[-20px] left-[-20px] size-[32px] lg:size-[48px] lg:top-[-36px] lg:left-[-28px]">
               <Image

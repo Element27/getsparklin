@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <section className="bg-white px-4 pt-24 relative pverflow-hidden">
-      <div className="flex flex-col lg:flex-row-reverse justify-around">
+    <section className="bg-white px-4 pt-24 relative  w-5/6 mx-auto">
+      <div className="flex flex-col lg:flex-row-reverse justify-between">
         <div className="gap-6 flex flex-col mb-12">
           <div className="flex gap-2 lg:gap-4 items-center justify-center w-fit">
             <div className="w-3 h-3 bg-[#2D7DF5] rounded-full border-2 border-black"></div>
@@ -65,20 +65,30 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mt-12 mx-4 lg:mx-12">
-        <Image
-          src="/icons/footerLogo.png"
-          alt="footer logo"
-          width={236}
-          height={60}
-          className=""
-        />
+      <div className="mt-12 flex justify-between   flex-col lg:flex-row   ">
+        <div className="relative h-fit">
+          <Image
+            src="/icons/footerLogo.png"
+            alt="footer logo"
+            width={236}
+            height={60}
+            className=""
+          />
 
-        <p className="text-sm font-gilroy">
-          © 2024. Getsparklin. All rights reserved.
-        </p>
+          <p className="text-sm font-gilroy">
+            © 2024. Getsparklin. All rights reserved.
+          </p>
 
-        <div className="flex items-center gap-6 my-12 relative">
+          {/* faded logo */}
+          <Image
+            src="/icons/abslog.svg"
+            alt="footer logo"
+            width={432}
+            height={600}
+            className="absolute bottom-0 lg:-bottom-1/2 -left-14"
+          />
+        </div>
+        <div className="flex items-center gap-6 my-12 ">
           <Image
             src="/icons/fb.svg"
             alt="instagram logo"
@@ -106,14 +116,6 @@ export default function Footer() {
             width={32}
             height={32}
             className=""
-          />
-
-          <Image
-            src="/icons/Logo Mark-1.svg"
-            alt="footer logo"
-            width={432}
-            height={600}
-            className="absolute bottom-[150%] lg:bottom-[-150%] left-[-5%] lg:left-[0] "
           />
         </div>
       </div>
