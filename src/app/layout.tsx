@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("font-gilroy-italic, text-black")}>{children}</body>
+      <body className={cn("font-gilroy, text-black")}>{children}</body>
     </html>
   );
 }

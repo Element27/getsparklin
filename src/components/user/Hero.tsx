@@ -58,11 +58,12 @@ export default function UserHero() {
           </span>
         </h1>
 
-        <p className="text-sm  mx-4 my-12 text-center font-gilroy">
+        <p className="text-sm  mx-4 my-12 text-center font-gilroy-medium">
           Imagine this: crisp, clean clothes delivered straight to your door,
-          leaving you free to pursue the things you love. No more weekend
-          laundry marathons, no more overflowing hampers, just freshness on
-          demand with our revolutionary laundry app!
+          leaving you free to pursue the things you{" "}
+          <br className="lg:block hidden" /> love. No more weekend laundry
+          marathons, no more overflowing hampers, just freshness on demand with
+          our <br className="lg:block hidden" /> revolutionary laundry app!
         </p>
         <div className="flex gap-2 mx-2 justify-center">
           <Button

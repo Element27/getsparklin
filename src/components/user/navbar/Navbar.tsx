@@ -16,7 +16,7 @@ import { usePathname } from "next/navigation";
 
 export function Navbar() {
   const pathName = usePathname();
-  console.log(pathName);
+  // console.log(pathName);
   return (
     <nav
       className={`hidden font-gilroy lg:flex justify-between items-center px-4 py-4 ${
@@ -31,7 +31,7 @@ export function Navbar() {
           height={32}
         />
         <h4
-          className={`text-[24px] font-medium ${
+          className={`text-[24px] font-medium  font-gilroy ${
             pathName === "/vendor" ? "text-white" : "text-black"
           }`}
         >
@@ -46,7 +46,7 @@ export function Navbar() {
       >
         <Link
           href="/"
-          className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+          className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium ${
             pathName === "/" && "bg-[#9047FF33] text-getsparklin-purple"
           }`}
         >
@@ -55,7 +55,7 @@ export function Navbar() {
 
         <Link
           href="/vendor"
-          className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+          className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium ${
             pathName === "/vendor" && "bg-[#9047FF33] text-getsparklin-purple"
           }`}
         >
@@ -64,14 +64,14 @@ export function Navbar() {
 
         <Link
           href="/"
-          className="my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+          className="my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium"
         >
           Our features
         </Link>
 
         <Link
           href="/"
-          className="my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+          className="my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium"
         >
           blogs
         </Link>
@@ -104,7 +104,7 @@ export function MobileNavbar() {
           width={23}
           height={32}
         />
-        <h4 className="text-[24px] font-medium ">GetSparklin</h4>
+        <h4 className="text-[24px] font-medium font-gilroy">GetSparklin</h4>
       </div>
       <div>
         <Sheet>
@@ -136,7 +136,7 @@ export function MobileNavbar() {
                 <Link
                   href="/"
                   // className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium bg-getsparklin-light-purple text-getsparklin-purple"
-                  className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+                  className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium ${
                     path === "/" && "bg-[#9047FF33] text-getsparklin-purple"
                   }`}
                 >
@@ -147,7 +147,7 @@ export function MobileNavbar() {
                 <Link
                   href="/vendor"
                   // className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
-                  className={`my-2 text-[14px] px-5 py-2 rounded-full font-medium ${
+                  className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium ${
                     path === "/vendor" &&
                     "bg-[#9047FF33] text-getsparklin-purple"
                   }`}
@@ -158,7 +158,7 @@ export function MobileNavbar() {
               <SheetClose className="my-2">
                 <Link
                   href="/"
-                  className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+                  className="cursor-pointer font-gilroy  my-2 text-[14px] px-5 py-2 rounded-full font-medium"
                 >
                   Our features
                 </Link>
@@ -166,7 +166,7 @@ export function MobileNavbar() {
               <SheetClose className="my-2">
                 <Link
                   href="/"
-                  className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
+                  className="cursor-pointer  font-gilroy my-2 text-[14px] px-5 py-2 rounded-full font-medium"
                 >
                   blogs
                 </Link>

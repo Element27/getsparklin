@@ -4,6 +4,7 @@ import UserFeatures from "@/components/user/Features";
 import Footer from "@/components/user/Footer";
 import UserHero from "@/components/user/Hero";
 import PrefooterSection from "@/components/user/PrefooterSection";
+import Slider from "@/components/user/Slider";
 import { MobileNavbar, Navbar } from "@/components/user/navbar/Navbar";
 import Image from "next/image";
 import React from "react";
@@ -18,6 +19,7 @@ export default function UserLandingPage() {
       </div>
       <UserHero />
       <UserFeatures />
+      <Slider />
       {/* <Advantage /> */}
       <PrefooterSection />
       <Footer />

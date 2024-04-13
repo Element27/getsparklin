@@ -5,65 +5,6 @@ import Button from "../Button";
 export default function PrefooterSection() {
   return (
     <section className="font-Gilroy">
-      <section className="relative h-screen bg-white flex items-end border ">
-        <div className="bg-getsparklin-purple h-[40%] lg:h-[60%] w-full border-t-4 border-t-black">
-          <div className="bg-getsparklin-yellow w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
-            <div className="absolute top-[5%] left-[5%] ">
-              <p className="text-xs lg:text-2xl md:text-base font-gilroy">
-                Get started with the following steps{" "}
-              </p>
-              <h3 className="text-3xl md:text-4xl lg:text-[60px] font-Gilroy font-semibold">
-                Mess monsters got <br /> you down?
-              </h3>
-            </div>
-            <Image
-              src={"/icons/bucket.png"}
-              alt="img"
-              width={1034}
-              height={548}
-              className=" mb-3 md:mr-3  max-h-[90%] lg:max-h-[80%] "
-            />
-          </div>
-
-          <div className="flex justify-between items-center my-10 relative  -top-3/4 lg:-top-1/2 w-[90%] lg:w-[70%] mx-auto">
-            <div className="flex items-center gap-4 lg:gap-8">
-              <div className="border flex items-center justify-center border-black bg-getsparklin-yellow rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl  font-bold">
-                <p>1</p>
-              </div>
-              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl font-bold">
-                <p>2</p>
-              </div>
-              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl font-bold">
-                <p>3</p>
-              </div>
-              <div className="border flex items-center justify-center border-black bg-white rounded-3xl w-6 h-5 lg:w-12 lg:h-11 text-[8px] md:text-xl lg:text-3xl font-bold">
-                <p>4</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="bg-getsparklin-yellow rounded-full overflow-hidden">
-                <Image
-                  src={"/icons/Right Button.svg"}
-                  alt="img"
-                  width={120}
-                  height={120}
-                  className="size-16 lg:size-24 rotate-180"
-                />
-              </div>
-              <div className="bg-getsparklin-yellow rounded-full overflow-hidden">
-                <Image
-                  src={"/icons/Right Button.svg"}
-                  alt="img"
-                  width={120}
-                  height={120}
-                  className="size-16 lg:size-24"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="w-full bg-getsparklin-teal h-screen lg:h-[60vh] flex items-center justify-center relative">
         <div
           style={{ boxShadow: `8px 8px 0 black ` }}
@@ -71,9 +12,9 @@ export default function PrefooterSection() {
         >
           <div className="w-fit mx-auto">
             <p className="text-4xl font-bold px-4 py-8 font-gilroy">
-              Download our app <br /> today and kiss{" "}
+              Download our app <br /> today and kiss laundry{" "}
               <br className="hidden lg:block" />
-              laundry goodbye!👋🏼
+              goodbye!👋🏼
             </p>
 
             <div className="flex gap-2 mx-2 justify-center">
@@ -105,6 +46,7 @@ export default function PrefooterSection() {
           </div>
         </div>
       </section>
+      {/*  */}
       <section className="bg-getsparklin-main-black p-16 relative h-[80vh] lg:h-[70vh]">
         <div>
           <h4 className="text-white text-5xl lg:text-6xl my-4 font-gilroy font-medium">
@@ -119,7 +61,9 @@ export default function PrefooterSection() {
         </div>
 
         <div className="flex w-full md:w-1/2 justify-between items-center rounded-full border-2 border-white p-4 my-4">
-          <p className="text-white text-sm lg:text-base">Youremail@gmail.com</p>
+          <p className="text-white text-sm lg:text-base font-gilroy-regular ">
+            Youremail@gmail.com
+          </p>
           <Image
             src="/icons/subarr.svg"
             alt=""

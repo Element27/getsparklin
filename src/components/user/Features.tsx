@@ -10,8 +10,8 @@ export default function UserFeatures() {
           OUR FEATURES
         </h5>
         <h3 className="text-3xl lg:text-6xl text-center font-Gilroy">
-          Here is how we make laundry a
-          <br /> <span className="text-getsparklin-purple"> breeze</span>{" "}
+          Here is how we make laundry <br className="lg:block hidden" /> a
+          <span className="text-getsparklin-purple"> breeze</span>{" "}
         </h3>
       </div>
 
@@ -23,7 +23,13 @@ export default function UserFeatures() {
               Your Neighborhood <br className="lg:block hidden" /> Heroes
             </span>
           }
-          description="Find local laundry businesses catering to your area, offering convenient pickup and delivery options. Support your community and enjoy personalized service!"
+          description={
+            <span>
+              Find local laundry businesses catering to your area, offering
+              convenient pickup <br className="lg:block hidden" /> and delivery
+              options. Support your community and enjoy personalized service!
+            </span>
+          }
           reverse={false}
         />
         <FeaturesComponent
@@ -33,7 +39,14 @@ export default function UserFeatures() {
               Crystal Clear <br className="lg:block hidden" /> Pricing
             </span>
           }
-          description="See upfront costs and compare different cleaning packages to find the perfect fit for your budget. No hidden fees, just transparent pricing you can trust. "
+          description={
+            <span>
+              See upfront costs and compare different cleaning packages to find
+              the perfect fit <br className="lg:block hidden" />
+              for your budget. No hidden fees, just transparent pricing you can
+              trust.{" "}
+            </span>
+          }
           reverse={true}
         />
         <FeaturesComponent
@@ -44,7 +57,13 @@ export default function UserFeatures() {
               <br className="lg:block hidden" />
             </span>
           }
-          description="Never wonder where your clothes are again! Track your laundry in real-time, from pickup to delivery, with live updates on every step of the journey."
+          description={
+            <span>
+              Never wonder where your clothes are again! Track your laundry in
+              real-time, <br className="lg:block hidden" /> from pickup to
+              delivery, with live updates on every step of the journey.
+            </span>
+          }
           reverse={false}
         />
         <FeaturesComponent
@@ -55,7 +74,14 @@ export default function UserFeatures() {
               <br className="lg:block hidden" />
             </span>
           }
-          description="Every wash counts! Earn points with every order and unlock exclusive discounts, special offers, and surprise treats. The more you laundry, the more you smile!"
+          description={
+            <span>
+              Every wash counts! Earn points with every order and unlock
+              exclusive discounts, <br className="lg:block hidden" /> special
+              offers, and surprise treats. The more you laundry, the more you
+              smile!
+            </span>
+          }
           reverse={true}
         />
         <FeaturesComponent
@@ -67,9 +93,14 @@ export default function UserFeatures() {
               Verification
             </span>
           }
-          description="Never worry about mix-ups again! Our secure ID verification system
-          ensures your clothes are collected and delivered to the rightful owner,
-          providing peace of mind."
+          description={
+            <span>
+              Never worry about mix-ups again! Our secure ID verification system
+              ensures <br className="lg:block hidden" />
+              your clothes are collected and delivered to the rightful owner
+              providing peace of mind.
+            </span>
+          }
           reverse={false}
         />
 

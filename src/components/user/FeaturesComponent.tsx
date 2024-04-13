@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 interface FeaturesProps {
   imageSrc: string;
   title: ReactNode;
-  description: string;
+  description: ReactNode;
   reverse: boolean;
 }
 
@@ -28,11 +28,13 @@ const FeaturesComponent = ({
       }`}
     >
       <div className="w-full lg:w-1/2">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl py-2 font-Gilroy font-medium">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl py-2 font-gilroy font-medium">
           {title}
         </h2>
 
-        <p className="text-sm md:text-base">{description}</p>
+        <p className="text-sm md:text-base text-[#475467] font-gilroy-medium ">
+          {description}
+        </p>
       </div>
 
       <div className={`w-full lg:w-fit flex ${reverse ? "" : "flex-end"}`}>
