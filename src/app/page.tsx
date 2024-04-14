@@ -5,6 +5,7 @@ import Footer from "@/components/user/Footer";
 import UserHero from "@/components/user/Hero";
 import PrefooterSection from "@/components/user/PrefooterSection";
 import Slider from "@/components/user/Slider";
+import Subscribe from "@/components/user/Subscribe";
 import { MobileNavbar, Navbar } from "@/components/user/navbar/Navbar";
 import Image from "next/image";
 import React from "react";
@@ -22,6 +23,7 @@ export default function UserLandingPage() {
       <Slider />
       {/* <Advantage /> */}
       <PrefooterSection />
+      <Subscribe />
       <Footer />
     </div>
   );

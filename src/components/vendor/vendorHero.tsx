@@ -74,60 +74,70 @@ export default function VendorHero() {
       /> */}
       </div>
 
-      <div className="bg-[#9047FF] w-full h-fit text-black p-8">
+      <div className="bg-[#9047FF] w-full h-fit text-black p-6 flex flex-col space-y-6">
         <p className="flex items-center justify-center gap-x-4 font-gilroy-medium text-base lg:text-2xl text-center">
           <UnionIcon className="w-fit inline-flex size-16 lg:size-2xl" /> By
           Local heroes
         </p>
 
-        {/* <div>
-          <div>
+        <div className="flex items-center justify-evenly flex-wrap-reverse">
+          <div className="flex gap-2 items-center">
             <Image
-              src="/icons/quologo.svg"
+              src="/icons/1.png"
               alt=""
               width={48}
               height={48}
               className=""
             />
-            <p>Quo</p>
+            <p className="text-xs lg:text-lg font-gilroy text-white">Layers</p>
           </div>
-          <div>
+          <div className="flex gap-2 items-center">
             <Image
-              src="/icons/sislogo.svg"
+              src="/icons/2.png"
               alt=""
               width={48}
               height={48}
               className=""
             />
+            <p className="text-xs lg:text-lg font-gilroy text-white">Catalog</p>
           </div>
-          <div>
+          <div className="flex gap-2 items-center">
             <Image
-              src="/icons/cirlogo.svg"
+              src="/icons/3.png"
               alt=""
               width={48}
               height={48}
               className=""
             />
+            <p className="text-xs lg:text-lg font-gilroy text-white">
+              Quotient
+            </p>
           </div>
-          <div>
+          <div className="flex gap-2 items-center">
             <Image
-              src="/icons/laylogo.svg"
+              src="/icons/4.png"
               alt=""
               width={48}
               height={48}
               className=""
             />
+            <p className="text-xs lg:text-lg font-gilroy text-white">
+              Circooles
+            </p>
           </div>
-          <div>
+          <div className="flex gap-2 items-center">
             <Image
-              src="/icons/catalogo.svg"
+              src="/icons/5.png"
               alt=""
-              width={48}
+              width={26}
               height={48}
               className=""
             />
+            <p className="text-xs lg:text-lg font-gilroy text-white">
+              Sisyphus
+            </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
