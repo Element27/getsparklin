@@ -90,22 +90,24 @@ export function MobileNavbar() {
   const path = usePathname();
   return (
     <nav
-      className={`flex font-gilroy items-center justify-between lg:hidden bg-white ${
-        path === "/vendor" && "bg-black"
+      className={`flex font-gilroy items-center justify-between lg:hidden  ${
+        path === "/vendor" ? "bg-black" : "bg-white"
       }`}
     >
       <div
-        className={`flex items-baseline ${path === "/vendor" && "text-white"}`}
+        className={`flex items-baseline ${
+          path === "/vendor" ? "text-white" : "text-black"
+        }`}
       >
         <Image
-          src={path === "/vendor" ? "/sparklin.png" : "/logo-white.svg"}
+          src={path === "/vendor" ? "/logo-white.svg" : "/sparklin.png"}
           alt="logo"
           width={23}
           height={32}
         />
         <h4
           className={`text-[24px] font-medium font-gilroy ${
-            path === "/vendor" ? "text-black" : "text-white"
+            path === "/vendor" ? "text-white" : "text-black"
           }`}
         >
           GetSparklin
@@ -117,8 +119,8 @@ export function MobileNavbar() {
             <Image
               src={
                 path === "/vendor"
-                  ? "/icons/Vectormenu.svg"
-                  : "/icons/vectormenuwhite.svg"
+                  ? "/icons/vectormenuwhite.svg"
+                  : "/icons/Vectormenu.svg"
               }
               alt="menu-icon"
               width={23}
