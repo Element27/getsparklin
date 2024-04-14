@@ -1,6 +1,7 @@
 import Footer from "@/components/user/Footer";
 import Subscribe from "@/components/user/Subscribe";
 import { MobileNavbar, Navbar } from "@/components/user/navbar/Navbar";
+import FAQ from "@/components/vendor/FAQ";
 import IntegratedSection from "@/components/vendor/IntegratedSection";
 import PreFAQ from "@/components/vendor/PreFAQ";
 import VendorFeatures from "@/components/vendor/VendorFeatures";
@@ -20,6 +21,7 @@ export default function VendorHome() {
       <VendorSlider />
       <PreFAQ />
       <IntegratedSection />
+      <FAQ />
       <Subscribe />
       <Footer />
     </main>

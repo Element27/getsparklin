@@ -23,3 +23,71 @@ export function UnionIcon(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export function FAQIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="36"
+      height="38"
+      viewBox="0 0 36 38"
+      fill="none"
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 19.5347C4.53418 17.4595 6.70284 14.799 8.53418 11.4595C9.46773 9.75712 11.6743 4.22828 11.6743 2"
+        stroke="#EF389B"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M7.44141 27.3951C11.0342 21.9595 12.0342 20.9595 16.0408 18.5941C20.3247 16.0652 31.0342 10.4595 33.5342 7.95947"
+        stroke="#EF389B"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M8.65234 33.4414C14.5352 31.9595 19.0352 28.9591 26.7917 35.86"
+        stroke="#EF389B"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+}
+export function DashIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="14"
+      height="3"
+      viewBox="0 0 14 3"
+      fill="none"
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13.5 1.99805H0.5V0.998047H13.5V1.99805Z"
+        fill="#050308"
+        stroke="#050308"
+      />
+    </svg>
+  );
+}
+
+export function PlusIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      fill="none"
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14 8.49805H8V14.498H6V8.49805H0V6.49805H6V0.498047H8V6.49805H14V8.49805Z"
+        fill="#050308"
+      />
+    </svg>
+  );
+}

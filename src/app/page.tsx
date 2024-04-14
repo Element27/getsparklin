@@ -21,7 +21,7 @@ export default function UserLandingPage() {
       <UserHero />
       <UserFeatures />
       <Slider />
-      {/* <Advantage /> */}
+      <Advantage />
       <PrefooterSection />
       <Subscribe />
       <Footer />
