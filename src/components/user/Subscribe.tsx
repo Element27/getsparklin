@@ -16,16 +16,17 @@ export default function Subscribe() {
         </p>
       </div>
 
-      <div className="flex w-full md:w-1/2 justify-between items-center rounded-full border-2 border-white p-4 my-4">
-        <p className="text-white text-sm lg:text-base font-gilroy-regular ">
-          Youremail@gmail.com
-        </p>
+      <div className="flex relative justify-between items-center border-2 border-white rounded-full overflow-hidden bg-transparent w-full md:w-1/2">
+        <input
+          className="text-white text-sm lg:text-base font-gilroy-regular px-4 lg:px-6 py-4 w-full h-full bg-transparent"
+          placeholder="Youremail@gmail.com"
+        />
         <Image
           src="/icons/subarr.svg"
           alt=""
           width={50}
           height={50}
-          className="size-5 lg:size-8"
+          className="size-5 lg:size-8 absolute right-4 top-1/2 -translate-y-1/2"
         />
       </div>
 
