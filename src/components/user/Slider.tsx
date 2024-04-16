@@ -1,7 +1,49 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-export default function Slider() {
+export default function Slider({}) {
+  const images = [
+    {
+      imgSrc: "/icons/How it works Card.png",
+      imgAlt: "",
+    },
+    {
+      imgSrc: "/icons/How it works Card-2.png",
+      imgAlt: "",
+    },
+    {
+      imgSrc: "/icons/How it works Card-3.png",
+      imgAlt: "",
+    },
+    {
+      imgSrc: "/icons/bucket.png",
+      imgAlt: "",
+    },
+  ];
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentSlide((prevSlide) =>
+        prevSlide === images.length - 1 ? 0 : prevSlide + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(intervalId); // Cleanup function for interval
+  }, [images.length]);
+
+  const handlePrevClick = () => {
+    const newSlide = currentSlide === 0 ? images.length - 1 : currentSlide - 1;
+    setCurrentSlide(newSlide);
+  };
+
+  const handleNextClick = () => {
+    const newSlide = (currentSlide + 1) % images.length;
+    setCurrentSlide(newSlide);
+  };
+
   return (
     <section className="relative h-screen bg-white flex items-end border ">
       <div className="bg-getsparklin-purple h-[40%] lg:h-[60%] w-full border-t-4 border-t-black">
