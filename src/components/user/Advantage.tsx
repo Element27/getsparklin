@@ -134,7 +134,7 @@ export default function Advantage() {
           </div>
           {/* table row 5 */}
           <div className="flex items-center justify-between">
-            <div className="w-1/4 h-20 lg:h-24 border-2 border-x-black border-b-black border-t-gray-300 flex items-center lg:justify-start justify-center p-1 lg:p-3">
+            <div className="w-1/4 h-20 lg:h-24 border-2 border-x-black border-b-black border-t-gray-300 flex items-center lg:justify-start justify-center p-1 lg:p-3 rounded-bl-3xl">
               <p className="text-[8px] lg:text-lg text-black font-gilroy">
                 Secure & Easy Payments
               </p>
@@ -145,7 +145,7 @@ export default function Advantage() {
             <div className="w-1/4 h-20 lg:h-24 border-2 border-x-black border-b-black border-t-gray-300 flex items-center justify-center">
               <Image src="/icons/Frame 39.png" alt="" width={57} height={24} />
             </div>
-            <div className="w-1/4 h-20 lg:h-24 border-2 border-x-black border-b-black border-t-gray-300 flex items-center justify-center">
+            <div className="w-1/4 h-20 lg:h-24 border-2 border-x-black border-b-black border-t-gray-300 flex items-center justify-center rounded-br-3xl">
               <Image src="/icons/Frame 37.png" alt="" width={57} height={24} />
             </div>
           </div>
