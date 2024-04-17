@@ -28,7 +28,7 @@ export default function VendorFeatures() {
 
       <div>
         <FeaturesComponent
-          imageSrc="/icons/image.png"
+          imageSrc="/icons/hlh.png"
           title={<span>Hyper-Local Hero</span>}
           description={
             <span>

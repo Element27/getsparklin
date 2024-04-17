@@ -19,7 +19,7 @@ export default function IntegratedSection() {
           />
           <Image
             className="my-6 h-5 lg:h-10 w-[64px] lg:w-[125px]"
-            src={"/icons/epson_logo.pngintg.png"}
+            src={"/icons/epson_logo.png"}
             alt=""
             width={125}
             height={40}
