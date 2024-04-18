@@ -39,11 +39,11 @@ export default function Slider({}) {
   };
 
   return (
-    <section className="relative h-screen bg-white flex items-end border ">
+    <section className="relative h-[60vh] lg:h-screen bg-white flex items-end border ">
       <div className="bg-getsparklin-purple h-[40%] lg:h-[60%] w-full border-t-4 border-t-black">
         {images[currentSlide]}
 
-        <div className="flex justify-between items-center my-10 relative  -top-3/4 lg:-top-1/2 w-[90%] lg:w-[70%] mx-auto">
+        <div className="flex justify-between items-center my-4 lg:my-10 relative  -top-3/4 lg:-top-1/2 w-[90%] lg:w-[70%] mx-auto">
           <div className="flex items-center gap-4 lg:gap-8">
             {images.map((_, index) => {
               return (

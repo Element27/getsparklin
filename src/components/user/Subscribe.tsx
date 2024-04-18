@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Subscribe() {
   return (
-    <section className="bg-getsparklin-main-black p-4 py-16 lg:p-16 relative h-[80vh] lg:h-[70vh]">
+    <section className="bg-getsparklin-main-black p-4 py-16 lg:p-16 relative h-[60vh] lg:h-[70vh]">
       <div>
         <h4 className="text-white text-5xl lg:text-6xl my-4 font-gilroy font-medium">
           Stay <span className="text-getsparklin-blue"> sparkling</span> <br />
