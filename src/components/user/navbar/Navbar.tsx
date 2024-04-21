@@ -108,7 +108,11 @@ export function MobileNavbar() {
                 <Link
                   href="/"
                   // className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium bg-getsparklin-light-purple text-getsparklin-purple"
-                  className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium {pathName === "/":" bg-[#9047FF33] text-getsparklin-purple"?"text-black"} `}
+                  className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium ${
+                    path === "/"
+                      ? "bg-[#9047FF33] text-getsparklin-purple"
+                      : "text-black"
+                  } `}
                 >
                   For Consumers
                 </Link>
@@ -117,7 +121,11 @@ export function MobileNavbar() {
                 <Link
                   href="/vendor"
                   // className="cursor-pointer my-2 text-[14px] px-5 py-2 rounded-full font-medium"
-                  className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium {pathName === "/vendor":" bg-[#9047FF33] text-getsparklin-purple"?"text-black"} `}
+                  className={`my-2 font-gilroy text-[14px] px-5 py-2 rounded-full font-medium ${
+                    path === "/vendor"
+                      ? " bg-[#9047FF33] text-getsparklin-purple"
+                      : "text-black"
+                  } `}
                 >
                   For Vendors
                 </Link>

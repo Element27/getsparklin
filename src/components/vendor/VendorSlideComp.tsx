@@ -3,7 +3,7 @@ import React from "react";
 
 export function VendorSlide1() {
   return (
-    <div className="bg-getsparklin-yellow w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
+    <div className="bg-getsparklin-yellow w-[90%] lg:w-[80%]  h-40 lg:h-96 relative border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
       <div className="absolute top-[5%] left-[5%] ">
         <p className="text-xs lg:text-2xl md:text-base font-gilroy-medium">
           Get started with the following steps{" "}
@@ -24,7 +24,7 @@ export function VendorSlide1() {
 }
 export function VendorSlide2() {
   return (
-    <div className="bg-getsparklin-yellow w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
+    <div className="bg-getsparklin-yellow w-[90%] lg:w-[80%]  h-40 lg:h-96 relative border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
       <div className="absolute top-[5%] left-[5%] ">
         <p className="text-xs lg:text-2xl md:text-base font-gilroy-medium">
           Get started with the following steps{" "}
@@ -45,7 +45,7 @@ export function VendorSlide2() {
 }
 export function VendorSlide3() {
   return (
-    <div className="bg-[#2D7DF5] w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
+    <div className="bg-[#2D7DF5] w-[90%] lg:w-[80%]  h-40 lg:h-96 relative border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
       <div className="absolute top-[5%] left-[5%] text-white">
         <p className="text-xs lg:text-2xl md:text-base font-gilroy-medium">
           Get started with the following steps{" "}
@@ -66,7 +66,7 @@ export function VendorSlide3() {
 }
 export function VendorSlide4() {
   return (
-    <div className="bg-[#6532B3] w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
+    <div className="bg-[#6532B3] w-[90%] lg:w-[80%]  h-40 lg:h-96 relative border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
       <div className="absolute top-[5%] left-[5%] text-white">
         <p className="text-xs lg:text-2xl md:text-base font-gilroy-medium">
           Get started with the following steps{" "}
@@ -87,7 +87,7 @@ export function VendorSlide4() {
 }
 export function VendorSlide5() {
   return (
-    <div className="bg-[#165D3B] w-[90%] lg:w-[70%]  h-full relative -top-3/4 lg:-top-1/2 border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
+    <div className="bg-[#165D3B] w-[90%] lg:w-[80%]  h-40 lg:h-96 relative border-4 border-black mx-auto flex items-end justify-end  overflow-hidden rounded-3xl">
       <div className="absolute top-[5%] left-[5%] text-white">
         <p className="text-xs lg:text-2xl md:text-base font-gilroy-medium">
           Get started with the following steps{" "}

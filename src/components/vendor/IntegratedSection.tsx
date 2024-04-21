@@ -3,13 +3,13 @@ import React from "react";
 
 export default function IntegratedSection() {
   return (
-    <section className="bg-[#F9F6FF] px-4 lg:px-8 py-6 lg:py-10">
-      <div>
+    <section className="bg-[#F9F6FF] w-screen">
+      <div className="px-4 lg:px-8 py-6 lg:py-10 w-full lg:max-w-7xl mx-auto">
         <h3 className="text-3xl md:text-4xl lg:text-6xl font-gilroy-medium text-center my-8">
           Integrated with
         </h3>
 
-        <div className="flex gap-8 flex-wrap items-center justify-around w-full lg:w-3/5 mx-auto">
+        <div className="flex gap-8 flex-wrap items-center justify-around w-[90%] lg:w-[80%] mx-auto">
           <Image
             className="my-6 h-5 lg:h-10 w-[113px]   lg:w-[226px]"
             src={"/icons/paystack.png"}

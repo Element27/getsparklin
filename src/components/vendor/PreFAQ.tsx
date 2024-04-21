@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function PreFAQ() {
   return (
-    <div>
+    <div className="w-screen bg-white">
       {" "}
-      <section className="w-full bg-white min-h-screen lg:h-[70vh] flex items-center justify-around relative p-8 lg:p-24">
+      <section className="w-full lg:max-w-7xl mx-auto bg-white min-h-screen lg:h-[70vh] flex items-center justify-around relative p-8 lg:p-24">
         <div
           style={{ boxShadow: `8px 8px 0 black ` }}
           className="bg-getsparklin-purple w-full mx-auto rounded-3xl overflow-hidden flex flex-col lg:flex-row relative gap-x-8 lg:pt-20 p-4 pb-0"
