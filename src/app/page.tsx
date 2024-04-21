@@ -14,7 +14,7 @@ export default function UserLandingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* navbar */}
-      <div className=" border-b-2 border-b-black p-4 md:px-8 lg:px-10">
+      <div className=" border-b-2 border-b-black">
         <Navbar />
         <MobileNavbar />
       </div>

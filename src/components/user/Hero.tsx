@@ -4,9 +4,9 @@ import Button from "../Button";
 
 export default function UserHero() {
   return (
-    <div>
+    <div className="w-screen bg-white p-4">
       {/* hero section */}
-      <div className="w-full lg:w-[70%] mx-auto my-10 lg:my-14 bg-white">
+      <div className="w-full lg:max-w-7xl mx-auto my-10 lg:my-14 bg-white ">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center  leading-[48px] lg:leading-[72px] font-gilroy text-black">
           Say{" "}
           <span className="relative text-getsparklin-purple">

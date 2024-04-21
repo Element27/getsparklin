@@ -4,8 +4,8 @@ import Button from "../Button";
 
 export default function PrefooterSection() {
   return (
-    <section className="font-Gilroy">
-      <section className="w-full bg-getsparklin-teal min-h-screen lg:h-[70vh] flex items-center justify-center relative">
+    <section className="font-Gilroy bg-getsparklin-teal w-screen">
+      <section className="w-full lg:max-w-7xl mx-auto min-h-screen lg:h-[70vh] flex items-center justify-center relative">
         <div
           style={{ boxShadow: `8px 8px 0 black ` }}
           className="bg-getsparklin-teal-white w-[80%]  h-2/5 lg:h-3/5 mx-auto rounded-3xl overflow-hidden flex flex-col lg:flex-row relative gap-x-8 lg:pt-20 p-4 pb-0"

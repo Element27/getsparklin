@@ -27,13 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={cn(
-          "mx-auto lg:w-screen lg:max-w-7xl font-gilroy, text-black"
-        )}
-      >
-        {children}
-      </body>
+      <body className={cn("font-gilroy, text-black bg-white")}>{children}</body>
     </html>
   );
 }
