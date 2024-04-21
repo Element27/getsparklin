@@ -30,7 +30,7 @@ export default function VendorFeatures() {
 
         <div>
           <FeaturesComponent
-            imageSrc="/public/icons/Image.svg"
+            imageSrc="/icons/Image.svg"
             title={<span>Hyper-Local Hero</span>}
             description={
               <span>
@@ -43,7 +43,7 @@ export default function VendorFeatures() {
             reverse={false}
           />
           <FeaturesComponent
-            imageSrc="/public/icons/Image (2).svg"
+            imageSrc="/icons/Image (2).svg"
             title={
               <span>
                 {" "}
@@ -61,7 +61,7 @@ export default function VendorFeatures() {
             reverse={true}
           />
           <FeaturesComponent
-            imageSrc="/public/icons/Image (3).svg"
+            imageSrc="/icons/Image (3).svg"
             title={
               <span>
                 Inventory on <br className="lg:block hidden" /> Autopilot
@@ -78,7 +78,7 @@ export default function VendorFeatures() {
             reverse={false}
           />
           <FeaturesComponent
-            imageSrc="/public/icons/Image (4).svg"
+            imageSrc="/icons/Image (4).svg"
             title={<span>Loyalty Loop</span>}
             description={
               <span>
@@ -92,7 +92,7 @@ export default function VendorFeatures() {
           />
 
           <FeaturesComponent
-            imageSrc="/public/icons/Image (1).svg"
+            imageSrc="/icons/Image (1).svg"
             title={
               <span>
                 Data-Driven <br className="lg:block hidden" />
